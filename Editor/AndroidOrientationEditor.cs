@@ -1,9 +1,11 @@
 #if UNITY_ANDROID
 using UnityEditor;
+using UnityEngine;
 
 namespace AbyssMoth
 {
     [InitializeOnLoad]
+    [HelpURL("https://github.com/RimuruDev/Unity-AndroidOrientationEditor")]
     public sealed class AndroidOrientationEditor
     {
         static AndroidOrientationEditor() =>
