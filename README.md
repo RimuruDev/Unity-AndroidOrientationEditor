@@ -28,6 +28,7 @@ using UnityEditor;
 namespace AbyssMoth
 {
     [InitializeOnLoad]
+    [HelpURL("https://github.com/RimuruDev/Unity-AndroidOrientationEditor")]
     public sealed class AndroidOrientationEditor
     {
         static AndroidOrientationEditor() =>
@@ -53,10 +54,21 @@ namespace AbyssMoth
 
 ## Installation
 
-1. Create a new `Editor` folder in your Unity project, if it doesn't exist yet.
-2. Inside the `Editor` folder, create a C# script file (e.g., `AndroidOrientationEditor.cs`).
-3. Copy and paste the provided code into that file.
-4. The script will automatically run when Unity is loaded and set the screen orientation for Android builds.
+You can install the Android Orientation Editor package via Unity Package Manager using a Git URL or by downloading the package from the releases.
+
+### Option 1: Installing via Git URL
+
+1. Open **Unity** and go to **Window** -> **Package Manager**.
+2. Click the **+** button in the top left corner and select **Add package from git URL...**.
+3. Enter the following URL:``` https://github.com/RimuruDev/Unity-AndroidOrientationEditor.git ```
+4. Unity will download and install the package automatically.
+
+### Option 2: Installing from Release
+
+1. Go to the [Releases](https://github.com/RimuruDev/Unity-AndroidOrientationEditor/releases) section of this repository.
+2. Download the latest `.unitypackage` file.
+3. In Unity, go to **Assets** -> **Import Package** -> **Custom Package...** and select the downloaded `.unitypackage`.
+4. Click **Import** to install the package.
 
 ## Requirements
 
